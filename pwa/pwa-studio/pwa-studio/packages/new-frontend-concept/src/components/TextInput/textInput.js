@@ -4,7 +4,7 @@ import { BasicText, asField } from 'informed';
 import { compose } from 'redux';
 
 import classify from 'src/classify';
-import { FieldIcons, Message } from 'src/components/SkreyField';
+import { FieldIcons, Message } from 'src/components/Field';
 import defaultClasses from './textInput.css';
 
 export class TextInput extends Component {

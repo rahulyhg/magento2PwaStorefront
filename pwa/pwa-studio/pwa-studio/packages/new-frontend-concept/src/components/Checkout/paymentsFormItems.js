@@ -5,7 +5,7 @@ import { array, bool, func, shape, string } from 'prop-types';
 import BraintreeDropin from './braintreeDropin';
 import Button from 'src/components/Button';
 import Checkbox from 'src/components/Checkbox';
-import Field from 'src/components/SkreyField';
+import Field from 'src/components/Skrey_Field';
 import TextInput from 'src/components/TextInput';
 import {
     isRequired,

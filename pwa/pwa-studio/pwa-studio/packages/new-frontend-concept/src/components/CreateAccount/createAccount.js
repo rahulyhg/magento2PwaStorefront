@@ -5,7 +5,7 @@ import { Form } from 'informed';
 import classify from 'src/classify';
 import Button from 'src/components/Button';
 import Checkbox from 'src/components/Checkbox';
-import Field from 'src/components/SkreyField';
+import Field from 'src/components/Skrey_Field';
 import TextInput from 'src/components/TextInput';
 
 import combine from 'src/util/combineValidators';

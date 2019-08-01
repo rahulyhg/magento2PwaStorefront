@@ -13,7 +13,7 @@ import {
 } from 'src/util/formValidators';
 import combine from 'src/util/combineValidators';
 import TextInput from 'src/components/TextInput';
-import Field from 'src/components/SkreyField';
+import Field from 'src/components/Skrey_Field';
 
 const fields = [
     'city',

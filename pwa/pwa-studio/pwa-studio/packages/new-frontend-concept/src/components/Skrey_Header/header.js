@@ -2,6 +2,7 @@ import React, { Suspense } from 'react';
 import { bool, func, shape, string } from 'prop-types';
 import { Menu as MenuIcon } from 'react-feather';
 
+import Skrey_MenuIcon from 'src/components/Skrey_MenuIcon';
 import Icon from 'src/components/Icon';
 import Logo from 'src/components/Skrey_Logo';
 import { Link, resourceUrl, Route } from 'src/drivers';
@@ -13,7 +14,7 @@ import OnlineIndicator from 'src/components/OnlineIndicator';
 import { mergeClasses } from 'src/classify';
 import defaultClasses from './header.css';
 
-const SearchBar = React.lazy(() => import('src/components/SkreySearchBar'));
+const SearchBar = React.lazy(() => import('src/components/Skrey_SearchBar'));
 
 const Header = props => {
     const { hasBeenOffline, isOnline, searchOpen } = props;
@@ -33,7 +34,7 @@ const Header = props => {
             <div className={classes.toolbar}>
                 <div className={classes.primaryActions}>
                     <NavTrigger>
-                        <Icon src={MenuIcon} />
+                        <Skrey_MenuIcon />
                     </NavTrigger>
                     <Link to={resourceUrl('/')}>
                         <Logo classes={{ logo: classes.logo }} />

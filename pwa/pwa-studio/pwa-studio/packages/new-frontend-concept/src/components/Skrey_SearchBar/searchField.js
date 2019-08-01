@@ -5,7 +5,7 @@ import { Search as SearchIcon, X as ClearIcon } from 'react-feather';
 import { useSearchParam } from '@magento/peregrine';
 
 import Icon from 'src/components/Icon';
-import TextInput from 'src/components/SkreyTextInput';
+import TextInput from 'src/components/Skrey_TextInput';
 import Trigger from 'src/components/Trigger';
 
 const clearIcon = <Icon src={ClearIcon} size={18} />;

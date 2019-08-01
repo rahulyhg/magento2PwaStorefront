@@ -4,7 +4,7 @@ import { BasicCheckbox, asField } from 'informed';
 import { compose } from 'redux';
 
 import classify from 'src/classify';
-import { Message } from 'src/components/SkreyField';
+import { Message } from 'src/components/Skrey_Field';
 import Icon from 'src/components/Icon';
 import { Check as CheckIcon } from 'react-feather';
 import defaultClasses from './checkbox.css';

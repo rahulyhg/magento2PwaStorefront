@@ -4,7 +4,7 @@ import { BasicRadioGroup, asField } from 'informed';
 import { compose } from 'redux';
 
 import classify from 'src/classify';
-import { Message } from 'src/components/SkreyField';
+import { Message } from 'src/components/Skrey_Field';
 import Radio from './radio';
 import defaultClasses from './radioGroup.css';
 

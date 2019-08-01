@@ -1,0 +1,22 @@
+.root .btnLine {
+    width: 28px;
+    height: 3px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background: rgb(var(--theme-secondary));
+    transition: all 0.5s ease-out;
+}
+
+.root .btnLine:nth-child(2) {
+    width: 20px;
+}
+
+.root .btnLine:last-child {
+    margin-bottom: 0;
+}
+
+.root .menuText {
+    text-transform: uppercase;
+    font-size: 0.625rem;
+}
+

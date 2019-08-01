@@ -4,7 +4,6 @@ import { mergeClasses } from 'src/classify';
 import logo from './logo.svg';
 
 const Logo = props => {
-    const { height } = props;
     const classes = mergeClasses({}, props.classes);
 
     return (
@@ -20,12 +19,7 @@ const Logo = props => {
 Logo.propTypes = {
     classes: PropTypes.shape({
         logo: PropTypes.string
-    }),
-    height: PropTypes.number
+    })
 };
-
-//Logo.defaultProps = {
-  //  height: 24
-//};
 
 export default Logo;

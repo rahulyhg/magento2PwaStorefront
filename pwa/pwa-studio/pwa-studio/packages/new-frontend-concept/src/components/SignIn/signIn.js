@@ -3,7 +3,7 @@ import { bool, func, object, shape, string } from 'prop-types';
 import { Form } from 'informed';
 
 import Button from 'src/components/Button';
-import Field from 'src/components/SkreyField';
+import Field from 'src/components/Skrey_Field';
 import LoadingIndicator from 'src/components/LoadingIndicator';
 import TextInput from 'src/components/TextInput';
 
